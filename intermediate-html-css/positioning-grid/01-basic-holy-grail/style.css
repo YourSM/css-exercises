@@ -6,7 +6,7 @@ html {
 
 .container {
   display: grid;
-  grid-template: 100px 100px 100px 100px 100px / 100px 100px 100px 100px 100px 100px;
+  grid-template: 100px 100px 600px 100px / 300px 700px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -24,27 +24,27 @@ html {
 
 .header {
   background-color: #006157;
-  grid-area: 1 / 1 / 1 / 7;
+  grid-area: 1 / 1 / 1 / 3;
 }
 
 .sidebar {
   background-color: #005B94;
-  grid-area: 2 / 1 / 5 / 3;
+  grid-area: 2 / 1 / 4 / 1;
 }
 
 .nav {
   background-color: #642cde;
-  grid-area: 3 / 3 / 2 / 7;
+  grid-area: 2;
 }
 
 .article {
   background-color: #aba5af;
-  grid-area: 3 / 3 / 5 / 7;
+  grid-area: 3 / 2;
 }
 
 .footer {
   background-color: #393f4d;
-  grid-area: 5 / 1 / 5 / 7;
+  grid-area: 4/ 1 / 4 / 3;
 }
 
 .article p {
