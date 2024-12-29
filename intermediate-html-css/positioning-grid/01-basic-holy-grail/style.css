@@ -6,7 +6,7 @@ html {
 
 .container {
   display: grid;
-  grid-template: 7rem 2rem 100px 100px 100px / 100rem 30rem 60rem 60rem 100rem;
+  grid-template: 100px 100px 100px 100px 100px / 100px 100px 100px 100px 100px 100px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -24,22 +24,27 @@ html {
 
 .header {
   background-color: #006157;
+  grid-area: 1 / 1 / 1 / 7;
 }
 
 .sidebar {
   background-color: #005B94;
+  grid-area: 2 / 1 / 5 / 3;
 }
 
 .nav {
   background-color: #642cde;
+  grid-area: 3 / 3 / 2 / 7;
 }
 
 .article {
   background-color: #aba5af;
+  grid-area: 3 / 3 / 5 / 7;
 }
 
 .footer {
   background-color: #393f4d;
+  grid-area: 5 / 1 / 5 / 7;
 }
 
 .article p {
