@@ -18,8 +18,26 @@
 }
 
 .header {
+  display: grid;
   background-color: #393f4d;
   grid-area: 1 / 1 / 1 / 6;
+  grid-template: 1fr / repeat(2, 1fr);
+}
+
+.logo {
+  grid-area: 1 / 1 / 1 / 1;
+  align-self: center;
+  justify-self: start;
+}
+
+.menu {
+  align-self: center;
+}
+
+.menu ul {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  gap: 5px;
 }
 
 .menu ul,
@@ -56,6 +74,7 @@
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style-type: none;
 }
 
 .article {
@@ -95,4 +114,8 @@
 .footer p {
   font-size: 13px;
   font-weight: normal;
+}
+
+li {
+  list-style-type: none;
 }
