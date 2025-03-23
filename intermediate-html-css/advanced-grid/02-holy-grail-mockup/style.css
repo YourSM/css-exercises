@@ -5,7 +5,7 @@
 
 .container {
   display: grid;
-  grid-template: 1fr 0.5fr 5fr 0.5fr / 1fr 5fr;
+  grid-template: 1fr 5fr;
   text-align: center;
 }
 
@@ -50,7 +50,7 @@
   background-color: #C50208;
   grid-area: 2 / 1 / 4;
   border: solid white;
-  border-width: 5px 5px 5px 0px;
+  border-width: 5px 5px 0px 0px;
   grid-template: repeat(4, 1fr);
   gap: 50px
 }
