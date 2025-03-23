@@ -46,10 +46,12 @@
 }
 
 .sidebar {
+  display: grid;
   background-color: #C50208;
   grid-area: 2 / 1 / 4;
   border: solid white;
   border-width: 5px 5px 5px 0px;
+  grid-template: repeat(4, 1fr);
 }
 
 .sidebar .photo {
@@ -124,4 +126,8 @@
 
 li {
   list-style-type: none;
+}
+
+.photo {
+  grid-area: 1 / 1 / 1 / 2;
 }
