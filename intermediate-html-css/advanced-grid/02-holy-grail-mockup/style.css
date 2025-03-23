@@ -128,7 +128,3 @@
 li {
   list-style-type: none;
 }
-
-.photo {
-  grid-area: 1 / 1 / 1 / 2;
-}
