@@ -86,8 +86,11 @@
 }
 
 .article {
+  display: grid;
   background-color: #bccbde;
   grid-area: 3 / 2 / 3 / 6;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px
 }
 
 .article p {
