@@ -128,3 +128,8 @@
 li {
   list-style-type: none;
 }
+
+.photo,
+.side-content {
+  align-content: center;
+}
