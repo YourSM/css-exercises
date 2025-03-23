@@ -7,6 +7,7 @@
   display: grid;
   grid-column: 1fr 4fr;
   text-align: center;
+  gap: 4px;
 }
 
 .container div {
@@ -49,8 +50,6 @@
   display: grid;
   background-color: #C50208;
   grid-area: 2 / 1 / 4;
-  border: solid white;
-  border-width: 5px 5px 0px 0px;
   grid-template: repeat(4, 1fr);
   gap: 50px
 }
@@ -74,8 +73,6 @@
 .nav {
   background-color: #C50208;
   grid-area: 2 / 2 / 2 / 6;
-  border: solid white;
-  border-width: 5px 0px 5px 0px;
   align-content: center;
 }
 
@@ -121,8 +118,6 @@
 .footer {
   background-color: #393f4d;
   grid-area: 4 / 1 / 4 / 6;
-  border: solid white;
-  border-width: 5px 0px 8px 0px;
 }
 
 .footer p {
