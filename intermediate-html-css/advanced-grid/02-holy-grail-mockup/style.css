@@ -22,7 +22,7 @@
   display: grid;
   background-color: #393f4d;
   grid-area: 1 / 1 / 1 / 6;
-  grid-template: 1fr / repeat(2, 1fr);
+  grid-template-columns:  repeat(2, 1fr);
 }
 
 .logo {
