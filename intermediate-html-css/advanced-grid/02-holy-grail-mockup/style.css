@@ -26,8 +26,6 @@
 }
 
 .logo {
-  grid-area: 1 / 1 / 1 / 1;
-  align-self: center;
   justify-self: start;
 }
 
