@@ -52,6 +52,7 @@
   border: solid white;
   border-width: 5px 5px 5px 0px;
   grid-template: repeat(4, 1fr);
+  gap: 50px
 }
 
 .sidebar .photo {
